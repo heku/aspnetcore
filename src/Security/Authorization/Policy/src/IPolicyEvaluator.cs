@@ -19,6 +19,7 @@ public interface IPolicyEvaluator
     /// <param name="policy">The <see cref="AuthorizationPolicy"/>.</param>
     /// <param name="context">The <see cref="HttpContext"/>.</param>
     /// <returns><see cref="AuthenticateResult.Success"/> unless all schemes specified by <see cref="AuthorizationPolicy.AuthenticationSchemes"/> fail to authenticate.  </returns>
+    [Obsolete]
     Task<AuthenticateResult> AuthenticateAsync(AuthorizationPolicy policy, HttpContext context);
 
     /// <summary>

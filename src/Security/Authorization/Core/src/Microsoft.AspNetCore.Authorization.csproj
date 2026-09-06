@@ -15,6 +15,7 @@ Microsoft.AspNetCore.Authorization.AuthorizeAttribute</Description>
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions" />
     <Reference Include="Microsoft.AspNetCore.Metadata" />
     <Reference Include="Microsoft.Extensions.Diagnostics" />
   </ItemGroup>
